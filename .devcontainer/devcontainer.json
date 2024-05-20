@@ -7,7 +7,7 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "window.menuBarVisibility": "visible",
+                "window.menuBarVisibility": "classic",
                 "workbench.activityBar.location": "top",
                 "debug.toolBarLocation": "docked",
                 "editor.formatOnSave": true,
