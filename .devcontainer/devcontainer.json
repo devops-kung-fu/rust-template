@@ -8,30 +8,23 @@
         "vscode": {
             "settings": {
                 "window.menuBarVisibility": "classic",
-                "workbench.activityBar.location": "top",
-                "debug.toolBarLocation": "docked",
+				"workbench.activityBar.location": "top",
+				"debug.toolBarLocation": "docked",
+				"workbench.colorTheme": "Default Light Modern",
                 "editor.formatOnSave": true,
-                "amazonQ.telemetry": false,
+				"editor.formatOnPaste": true,
+				"git.autofetch": true,
                 "[markdown]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode"
-                },
-                "[rust]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode"
-                },
-                "[json]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode"
-                },
-                "[yaml]": {
                     "editor.defaultFormatter": "esbenp.prettier-vscode"
                 }
             },
             "extensions": [
+                "Github.copilot",
                 "github.vscode-pull-request-github",
                 "github.vscode-github-actions",
                 "oderwat.indent-rainbow",
                 "quicktype.quicktype",
                 "ahebrank.yaml2json",
-                "amazonwebservices.amazon-q-vscode",
                 "Gruntfuggly.todo-tree",
                 "esbenp.prettier-vscode"
             ]
